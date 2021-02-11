@@ -4,7 +4,7 @@ import os
 
 #Read check values
 file_age = open("rules/age.txt", "r")
-age_check = int(file1.read())
+age_check = int(file_age.read())
 file_age.close()
 
 file2 = open("rules/height.txt", "r")
